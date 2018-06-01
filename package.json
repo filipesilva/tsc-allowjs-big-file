@@ -1,0 +1,15 @@
+{
+  "name": "tsc-allowjs-big-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc big-class.ts && tsc big-class.js --allowJs --outDir out-tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.7.2"
+  }
+}
